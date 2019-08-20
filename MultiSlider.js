@@ -356,6 +356,8 @@ export default class MultiSlider extends React.Component {
     } = this.props.touchDimensions;
     const touchStyle = {
       borderRadius: borderRadius || 0,
+      height,
+      width,
     };
 
     const markerContainerOne = { top: markerOffsetY - 24, left : trackOneLength + markerOffsetX - 24 }
